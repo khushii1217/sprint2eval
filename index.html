@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            a font-family: ;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .subscribe {
+            margin-bottom: 20px;
+        }
+
+        .subscribe h3 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        .subscribe p {
+            margin: 5px 0;
+            color: #6c757d;
+        }
+
+        .subscribe-form {
+            margin-top: 10px;
+        }
+
+        .subscribe-form input[type="email"] {
+            padding: 10px;
+            width: 250px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+        }
+
+        .subscribe-form button {
+            padding: 10px 20px;
+            background-color: #fd7e14;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px 0;
+        }
+
+        .column {
+            margin: 0 20px;
+        }
+
+        .column h4 {
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        .column ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .column ul li {
+            margin-bottom: 5px;
+        }
+
+        .column ul li a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        .column ul li a:hover {
+            color: #fd7e14;
+        }
+
+        .social-media {
+            display: flex;
+            gap: 10px;
+        }
+
+        .social-media li a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .social-media li a:hover {
+            color: #fd7e14;
+        }
+
+        /*.container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        } */
+
+        /* .logo {
+            display: flex;
+            align-items: center;
+        } */
+
+        /* .logo img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        } */
+
+        /* .nav {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav li {
+            margin-right: 20px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        } */
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .text {
+            max-width: 500px;
+        }
+
+        .text h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .text p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .image {
+            max-width: 500px;
+        }
+
+        .image img {
+            width: 100%;
+            height: auto;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ff6347;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            opacity: 0.8;
+        }
+
+        h3 {
+            text-decoration: #868686;
+
+        }
+    </style>
+</head>
+
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <div>
+        <div style="display:flex; justify-content:space-between; align-items:center; padding: 20px;">
+            <div style="display:flex; align-items:center;">
+                <img src="https://themewagon.github.io/collab/v1.0.0/assets/img/gallery/logo.png" alt="Google logo"
+                    style="width: 80px; height: 60px;">
+
+            </div>
+            <div style="display:flex; align-items:center;">
+                <a href="#" style="text-decoration: none; color: #868686; margin-right: 20px;">Products</a>
+                <a href="#" style="text-decoration: none; color: #868686; margin-right: 20px;">UseCases</a>
+                <a href="#" style="text-decoration: none; color: #868686; margin-right: 20px;">Developers</a>
+                <a href="#" style="text-decoration: none; color: #868686; margin-right: 20px;">Pricing</a>
+            </div>
+            <div style="display:flex; align-items:center;">
+                <a href="#" style="text-decoration: none; color: #ed5a5a; margin-right: 20px;">Sign in</a>
+                <button
+                    style="background-color: #ff8547; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">TRY
+                    FOR FREE</button>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="text">
+                <h3 style="color: grey;"> TOP BUSINESS APP</h3>
+                <h1 style="color: #6b4eff; margin: 0; font-size: 30px;">The platform for</h1>
+                <h1 style="color: #6b4eff; margin: 0; font-size: 30px;">better cooperation</h1>
+                <p>Crafted with care & creativity. Brings together everything in one place.</p>
+                <div class="buttons">
+                    <button class="button">DOWNLOAD</button>
+                    <button class="button">CHECK DEMO</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="https://themewagon.github.io/collab/v1.0.0/assets/img/gallery/hero-header.gif"
+                    alt="Image of people collaborating">
+            </div>
+        </div>
+
+
+        <div style="background-color: #f5f5f5; padding: 20px;">
+            <div style="display: flex; justify-content: space-around; align-items: center;"> <img
+                    src="https://themewagon.github.io/collab/v1.0.0/assets/img/gallery/netflix.png"
+                    style="height: 40px;">
+                <img src="https://themewagon.github.io/collab/v1.0.0/assets/img/gallery/facebook.png"
+                    style="height: 40px;">
+                <img src="https://themewagon.github.io/collab/v1.0.0/assets/img/gallery/freelancer.png"
+                    style="height: 40px;"> <img
+                    src="https://themewagon.github.io/collab/v1.0.0/assets/img/gallery/mailbluster.png"
+                    style="height: 40px;"> <img
+                    src="https://themewagon.github.io/collab/v1.0.0/assets/img/gallery/theme-wagon.png"
+                    style="height: 40px;">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div
+        style="display: flex; align-items: center; max-width: 1200px; margin: 0 auto; padding: 20px; background-color: #fff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+
+
+        <div style="flex: 1; text-align: center;">
+            <img src="https://themewagon.github.io/collab/v1.0.0/assets/img/gallery/partnership.png" alt="Phone Image"
+                style="max-width: 100%; height: auto;">
+        </div>
+
+
+        <div style="flex: 1; padding-left: 40px;">
+            <h3 style="color: #6b4eff; margin: 0; font-size: 16px; text-transform: uppercase;">Partnership</h3>
+            <h1 style="color: #333; margin: 10px 0; font-size: 32px;">Build strong partnership & organizations</h1>
+            <p style="color: #666; margin-bottom: 20px; font-size: 16px; line-height: 1.6;">
+                Bring all your documents under one place and make it easy to share with others in no time. That makes
+                the whole process comfortable.
+            </p>
+            <a href="#"
+                style="display: inline-block; padding: 12px 24px; background-color: #ff6b4e; color: #fff; text-decoration: none; border-radius: 4px; font-weight: bold;">Learn
+                more</a>
+        </div>
+
+    </div>
+
+    <div style="display: flex; justify-content: center; padding: 40px 0; background-color: #fff;">
+
+        <div style="flex: 1; text-align: center;">
+            <img src="icon1-url.png" alt="Write it up Icon" style="width: 50px; height: 50px;">
+            <h3 style="color: #333; margin: 10px 0;">Write it up</h3>
+            <p style="color: #666; margin: 0 20px; font-size: 14px;">
+                Write it down whenever you feel for it, as each detail matters and stays.
+            </p>
+        </div>
+
+
+        <div style="flex: 1; text-align: center;">
+            <img src="icon2-url.png" alt="Show to others Icon" style="width: 50px; height: 50px;">
+            <h3 style="color: #333; margin: 10px 0;">Show to others menu</h3>
+            <p style="color: #666; margin: 0 20px; font-size: 14px;">
+                Share effective and important data to your partner.
+            </p>
+        </div>
+
+
+        <div style="flex: 1; text-align: center;">
+            <img src="icon3-url.png" alt="Storing at the cloud Icon" style="width: 50px; height: 50px;">
+            <h3 style="color: #333; margin: 10px 0;">Storing at the cloud</h3>
+            <p style="color: #666; margin: 0 20px; font-size: 14px;">
+                Save your valuable info to get all the resources under one platform as a unit.
+            </p>
+        </div>
+    </div>
+
+
+    <div style="display: flex; align-items: center; padding: 60px 20px; background-color: #fff6f1;">
+
+
+        <div style="flex: 1; padding-right: 40px;">
+            <h3 style="color: #6b4eff; margin: 0; font-size: 16px; text-transform: uppercase;">Corroboration</h3>
+            <h1 style="color: #333; margin: 10px 0; font-size: 32px;">Keeping All Elements Together To Present The
+                Project</h1>
+            <p style="color: #666; margin-bottom: 20px; font-size: 16px; line-height: 1.6;">
+                While the project is shared between several members, the resources need to be at one place to maintain
+                the clarity of the project, and flexibility among developers.
+            </p>
+            <a href="#"
+                style="display: inline-block; padding: 12px 24px; background-color: #ff6b4e; color: #fff; text-decoration: none; border-radius: 4px; font-weight: bold;">Learn
+                more</a>
+        </div>
+
+
+        <div style="flex: 1; text-align: center;">
+            <img src="https://themewagon.github.io/collab/v1.0.0/assets/img/gallery/corroboration.png" alt="Phone Image"
+                style="max-width: 100%; height: auto;">
+        </div>
+
+    </div>
+
+    <div style="display: flex; justify-content: center; padding: 40px 0; background-color: #fff;">
+
+        <div style="flex: 1; text-align: center;">
+            <img src="icon1-url.png" alt="Write it up Icon" style="width: 50px; height: 50px;">
+            <h3 style="color: #333; margin: 10px 0;">Write it up</h3>
+            <p style="color: #666; margin: 0 20px; font-size: 14px;">
+                Communicating through video on elaborate workflow and understanding.
+            </p>
+        </div>
+
+
+        <div style="flex: 1; text-align: center;">
+            <img src="icon2-url.png" alt="Show to others Icon" style="width: 50px; height: 50px;">
+            <h3 style="color: #333; margin: 10px 0;">Show to others menu</h3>
+            <p style="color: #666; margin: 0 20px; font-size: 14px;">
+                Stay communicated with all the colleagues and brush up your social skill.
+            </p>
+        </div>
+
+
+        <div style="flex: 1; text-align: center;">
+            <img src="icon3-url.png" alt="Storing at the cloud Icon" style="width: 50px; height: 50px;">
+            <h3 style="color: #333; margin: 10px 0;">Storing at the cloud</h3>
+            <p style="color: #666; margin: 0 20px; font-size: 14px;">
+                Click it and share the top quality images to all the member of your group.
+            </p>
+        </div>
+    </div>
+
+
+    <div
+        style="display: flex; align-items: center; max-width: 1200px; margin: 0 auto; padding: 20px; background-color: #fff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+
+
+        <div style="flex: 1; text-align: center;">
+            <img src="https://themewagon.github.io/collab/v1.0.0/assets/img/gallery/cta.png" alt="collaborators image"
+                style="max-width: 100%; height: auto;">
+        </div>
+
+
+        <div style="flex: 1; padding-left: 40px;">
+            <h3 style="color: #6b4eff; margin: 0; font-size: 16px; text-transform: uppercase;">Collaborate with the team
+                free of cost</h3>
+
+
+            </p>
+            <a href="#"
+                style="display: inline-block; padding: 4px 6px; background-color: #ff6b4e; color: #fff; text-decoration: none; border-radius: 4px; font-weight: bold;">TRY
+                FOR FREE</a>
+        </div>
+
+    </div>
+
+
+    <div
+        style="display: flex; align-items: center; max-width: 1200px; margin: 0 auto; padding: 20px; background-color:orange; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+
+
+        <div style=" text-align: center;">
+            <img src="https://themewagon.github.io/collab/v1.0.0/assets/img/gallery/cta-2.png" alt="mobile"
+                style="max-width: 100%; height: auto;">
+        </div>
+
+
+        <div style="flex: 1; padding-left: 40px;">
+            <h3 style="text-wrap: ; font-size: 16px; text-transform: ">Start using our app today, enjoy the complete fun
+            </h3>
+
+
+            </p>
+            <a href="#"
+                style="display: inline-block; padding: 4px 6px; background-color: #ff6b4e; color: #fff; text-decoration: none; border-radius: 4px; font-weight: bold;"><img
+                    src="https://themewagon.github.io/collab/v1.0.0/assets/img/gallery/app-store.png" alt=""></a>
+            <a href="#"
+                style="display: inline-block; padding: 4px 6px; background-color: #ff6b4e; color: #fff; text-decoration: none; border-radius: 4px; font-weight: bold;"><img
+                    src="https://themewagon.github.io/collab/v1.0.0/assets/img/gallery/google-play.png" alt=""></a>
+        </div>
+
+    </div>
+
+    <!-- <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>WHY US</h3>
+                <ul>
+                    <li><a href="#">Channel</a></li>
+                    <li><a href="#">Engagement</a></li>
+                    <li><a href="#">Scale</a></li>
+                    <li><a href="#">Watch Demo</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>PRODUCT</h3>
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Integrations</a></li>
+                    <li><a href="#">Enterprise</a></li>
+                    <li><a href="#">Solutions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>RESOURCES</h3>
+                <ul>
+                    <li><a href="#">Partners</a></li>
+                    <li><a href="#">Developers</a></li>
+                    <li><a href="#">Apps</a></li>
+                    <li><a href="#">Blogs</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>COMPANY</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Leadership</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>PRICING</h3>
+                <ul>
+                    <li><a href="#">Plans</a></li>
+                    <li><a href="#">Paid vs. Free</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>FOLLOW</h3>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fas fa-bell"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-cta">
+            <div class="footer-cta-container">
+                <p>For more, Subscribe now</p>
+                <p>Stay updated and work accordingly</p>
+                <div class="footer-cta-form">
+                    <input type="email" placeholder="Enter your email address">
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+        </div>
+    </footer> -->
+
+    <footer>
+        <div class="subscribe">
+            <h3>For more, Subscribe now</h3>
+            <p>Stay updated and work accordingly</p>
+            <form class="subscribe-form">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="footer-links">
+            <div class="column">
+                <h4>WHY US</h4>
+                <ul>
+                    <li><a href="#">Channel</a></li>
+                    <li><a href="#">Engagement</a></li>
+                    <li><a href="#">Scale</a></li>
+                    <li><a href="#">Watch Demo</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h4>PRODUCT</h4>
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Integrations</a></li>
+                    <li><a href="#">Enterprise</a></li>
+                    <li><a href="#">Solutions</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h4>RESOURCES</h4>
+                <ul>
+                    <li><a href="#">Partners</a></li>
+                    <li><a href="#">Developers</a></li>
+                    <li><a href="#">Apps</a></li>
+                    <li><a href="#">Blogs</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h4>COMPANY</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Leadership</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h4>PRICING</h4>
+                <ul>
+                    <li><a href="#">Plans</a></li>
+                    <li><a href="#">Paid vs. Free</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h4>FOLLOW</h4>
+                <ul class="social-media">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Snapchat</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    </div>
+
+</body>
+
+</html>
